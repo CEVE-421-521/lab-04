@@ -1,3 +1,3 @@
-# Lab 02: Julia Basics
+# Lab 04: House Elevation Case Study
 
-This is a placeholder for the lab 02 README.
+This is a placeholder for the lab.
