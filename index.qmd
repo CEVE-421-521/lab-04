@@ -2,7 +2,7 @@
 title: "Lab 4: House Elevation Case Study"
 subtitle: "DecisionProblems"
 author: "CEVE 421/521"
-jupyter: julia-1.9
+jupyter: julia-1.10
 date: 2024-02-08
 week: 5
 categories: [Lab]
