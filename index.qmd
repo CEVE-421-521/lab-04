@@ -83,7 +83,7 @@ Specifically, we will consider two kinds of costs:
 1. The annual expected costs of flooding, which we will assume are reduced by elevating the house. We can consider this as an annual insurance premium.
 
 An advantage of this framing is that we don't have to model whether a flood occurs in each given year -- we only worry about the probability distribution of flooding.
-A disadvatage of this framing is that we make some unrealistic assumptions, like that if there is a flood it will automatically be restored to the same condition as before.
+A disadvantage of this framing is that we make some unrealistic assumptions, like that if there is a flood it will automatically be restored to the same condition as before.
 However, the main advantage is that it simplifies our computation a lot and allows us to focus on the NPV analysis itself.
 
 ## Adding some math in
@@ -176,7 +176,7 @@ We can treat this as the expected cost of flooding for this model.
 
 Next, we have the cost of elevating.
 We'll use equations I've used before [@zarekarizi_suboptimal:2020, @doss-gollin_subjective:2022].
-Essentially, we have a piecewise linear function that depends on the area of the house and how height we elevate.
+Essentially, we have a piecewise linear function that depends on the area of the house and how high we elevate.
 
 ```{julia}
 #| output: false
@@ -246,7 +246,7 @@ Now it's your turn to do some analysis.
 First, we're going to write a function that tells us our costs and benefits in a single year.
 The information we'll need for that year is:
 
-- The distribution of of flooding at the house
+- The distribution of flooding at the house
 - The depth-damage function (as in percentage terms)
 - The cost of elevating the house (and the house area)
 - The house value
